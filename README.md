@@ -25,7 +25,7 @@ For slides and example code, see [lesson 2](../../../fhnw-iot/blob/master/02/REA
 * Combine the previous examples to switch the LED.
 * Look up the [pin mapping](https://github.com/tamberg/fhnw-iot/wiki/Grove-Adapters#mapping) to adapt the pin numbers.
 
-### d) State machine
+### d) State machine, 10'
 * Copy and complete the code of the state machine.
 * Make sure it works, with a button and LED setup.
 * Change it to switch off only, if the 2nd press is _long_.
