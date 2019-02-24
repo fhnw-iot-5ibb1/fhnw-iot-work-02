@@ -36,21 +36,29 @@ For slides and example code, see [lesson 2](../../../fhnw-iot/blob/master/02/REA
 * Connect to adapter port _A0_.
 * [Maps to](https://github.com/tamberg/fhnw-iot/wiki/Grove-Adapters#mapping) ESP8266 pin _ADC_.
 * Or nRF52840 pin _A0_.
-* Adapt [this code](https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#arduino-1).
+* Adapt [this code](https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#light-sensor-v12).
 
-### f) Temperature (DHT11 library), 5'
-* TODO
+### f) Temperature (DHT11), 5'
+* DHT11 sensors require a [library](https://github.com/Seeed-Studio/Grove_Temperature_And_Humidity_Sensor).
+* Connect to adapter port _D2_.
+* Maps to ESP8266 pin _2_.
+* Or nRF52840 pin _5_.
+* Adapt [this code](https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#temperature--humidity-sensor).
+* New to libraries? See Arduino [Wiki page](https://github.com/tamberg/fhnw-iot/wiki/Arduino).
 
-### g) Display, 5'
-* TODO
-
-### h) Kitchen timer, 30'
+### g) Kitchen timer, 30'
 * Design a kitchen timer to the following specification:
 * Counts down in minutes, seconds on the display.
 * Allows the user to reset the countdown to _00:00_.
 * Allows the user to set a new start time in _mm:ss_.
 * Triggers the buzzer if countdown reaches _00:00_.
 * To measure time since reboot, use [millis()](https://www.arduino.cc/reference/en/language/functions/time/millis/).
+
+### h) Homework, max. 3h
+* Implement or finish the kitchen timer you designed.
+* Document the timer state machine (PDF or PNG).
+* Commit the code and docs to the hands-on repo.
+* Bring the (working) timer to the next lesson.
 
 ### Submitting results
 * [Commit and push](#git) local changes to your repository.
