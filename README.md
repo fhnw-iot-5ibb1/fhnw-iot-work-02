@@ -5,8 +5,12 @@ For slides and example code, see [lesson 2](../../../fhnw-iot/blob/master/02/REA
 > *Note: Do not work on this repository right away.*<br/>
 > *[Check existing forks to find the specific repository for your class.](../../network/members)*
 
-### a) X, 0'
-* X.
+### a) LED, 5'
+* nRF52840 or ESP8266 w/ Grove:
+* Connect to adapter port D2.
+* [Maps to](https://github.com/tamberg/fhnw-iot/wiki/Grove-Adapters#mapping) ESP8266 pin 2.
+* Or nRF52840 pin 5.
+* Try [this code](https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#arduino).
 
 ### Submitting results
 * [Commit and push](#git) local changes to your repository.
