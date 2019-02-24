@@ -19,6 +19,21 @@ For slides and example code, see [lesson 2](../../../fhnw-iot/blob/master/02/REA
 * Or nRF52840 pin 5.
 * Try [this code](https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#arduino).
 
+### c) Sensing light (analog input), 5'
+* nRF52840 or ESP8266 w/ Grove:
+* Connect to adapter port A0.
+* [Maps to](https://github.com/tamberg/fhnw-iot/wiki/Grove-Adapters#mapping) ESP8266 pin ADC.
+* Or nRF52840 pin A0.
+* Try [this code](https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#arduino-1).
+
+### Kitchen timer, 30'
+* Design a kitchen timer to the following specification:
+* Counts down in minutes, seconds on the display.
+* Allows the user to reset the countdown to _00:00_.
+* Allows the user to set a new start time in _mm:ss_.
+* Triggers the buzzer if countdown reaches _00:00_.
+* To measure time since reboot, use [millis()](https://www.arduino.cc/reference/en/language/functions/time/millis/).
+
 ### Submitting results
 * [Commit and push](#git) local changes to your repository.
 * Want a review? [Create an issue](../../issues/new), mention me (@tamberg).
