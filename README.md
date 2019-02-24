@@ -10,14 +10,14 @@ For slides and example code, see [lesson 2](../../../fhnw-iot/blob/master/02/REA
 * Connect to adapter port _D2_.
 * [Maps to](https://github.com/tamberg/fhnw-iot/wiki/Grove-Adapters#mapping) ESP8266 pin _2_.
 * Or nRF52840 pin _5_.
-* Adapt [this code](https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#arduino).
+* Adapt [this code](https://github.com/tamberg/fhnw-iot/wiki/Grove-Actuators#led).
 
 ### b) Button (digital input), 5'
 * nRF52840 or ESP8266 w/ Grove:
 * Connect to adapter port _D2_.
 * [Maps to](https://github.com/tamberg/fhnw-iot/wiki/Grove-Adapters#mapping) ESP8266 pin _2_.
 * Or nRF52840 pin _5_.
-* Adapt [this code](https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#arduino).
+* Adapt [this code](https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#button).
 
 ### c) Button-triggered LED, 15'
 * This works with nRF52840 or ESP8266, w/ Grove.
@@ -25,15 +25,18 @@ For slides and example code, see [lesson 2](../../../fhnw-iot/blob/master/02/REA
 * Combine the previous examples to switch the LED.
 * Look up the [pin mapping](https://github.com/tamberg/fhnw-iot/wiki/Grove-Adapters#mapping) to adapt the pin numbers.
 
-### d) Sensing light (analog input), 5'
+### d) State machine
+* Copy and complete the code of the state machine.
+* Make sure it works, with a button and LED setup.
+* Change it to switch off only, if the 2nd press is _long_.
+* Let's define long as > 1s, measure time with [millis()](https://www.arduino.cc/reference/en/language/functions/time/millis/)
+
+### e) Sensing light (analog input), 5'
 * nRF52840 or ESP8266 w/ Grove:
 * Connect to adapter port _A0_.
 * [Maps to](https://github.com/tamberg/fhnw-iot/wiki/Grove-Adapters#mapping) ESP8266 pin _ADC_.
 * Or nRF52840 pin _A0_.
 * Adapt [this code](https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#arduino-1).
-
-### e) PWM (analog output), 5'
-* TODO
 
 ### f) Temperature (DHT11 library), 5'
 * TODO
