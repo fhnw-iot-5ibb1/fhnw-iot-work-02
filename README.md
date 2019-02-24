@@ -10,21 +10,21 @@ For slides and example code, see [lesson 2](../../../fhnw-iot/blob/master/02/REA
 * Connect to adapter port _D2_.
 * [Maps to](https://github.com/tamberg/fhnw-iot/wiki/Grove-Adapters#mapping) ESP8266 pin _2_.
 * Or nRF52840 pin _5_.
-* Try [this code](https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#arduino).
+* Adapt [this code](https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#arduino).
 
 ### b) Button (digital input), 5'
 * nRF52840 or ESP8266 w/ Grove:
 * Connect to adapter port _D2_.
 * [Maps to](https://github.com/tamberg/fhnw-iot/wiki/Grove-Adapters#mapping) ESP8266 pin _2_.
 * Or nRF52840 pin _5_.
-* Try [this code](https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#arduino).
+* Adapt [this code](https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#arduino).
 
 ### c) Sensing light (analog input), 5'
 * nRF52840 or ESP8266 w/ Grove:
 * Connect to adapter port _A0_.
 * [Maps to](https://github.com/tamberg/fhnw-iot/wiki/Grove-Adapters#mapping) ESP8266 pin _ADC_.
 * Or nRF52840 pin _A0_.
-* Try [this code](https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#arduino-1).
+* Adapt [this code](https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#arduino-1).
 
 ### Kitchen timer, 30'
 * Design a kitchen timer to the following specification:
