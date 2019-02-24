@@ -32,7 +32,16 @@ For slides and example code, see [lesson 2](../../../fhnw-iot/blob/master/02/REA
 * Or nRF52840 pin _A0_.
 * Adapt [this code](https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#arduino-1).
 
-### Kitchen timer, 30'
+### e) PWM (analog output), 5'
+* TODO
+
+### f) Temperature (DHT11 library), 5'
+* TODO
+
+### g) Display, 5'
+* TODO
+
+### h) Kitchen timer, 30'
 * Design a kitchen timer to the following specification:
 * Counts down in minutes, seconds on the display.
 * Allows the user to reset the countdown to _00:00_.
