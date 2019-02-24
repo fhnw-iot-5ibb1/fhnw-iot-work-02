@@ -26,6 +26,12 @@ For slides and example code, see [lesson 2](../../../fhnw-iot/blob/master/02/REA
 * Or nRF52840 pin _A0_.
 * Adapt [this code](https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#arduino-1).
 
+### d) Button-triggered LED, 15'
+* This works with nRF52840 or ESP8266, w/ Grove.
+* Connect the LED to port D2, and the button to D4.
+* Combine the previous examples to switch the LED.
+* Look up the [pin mapping](https://github.com/tamberg/fhnw-iot/wiki/Grove-Adapters#mapping) to adapt the pin numbers.
+
 ### Kitchen timer, 30'
 * Design a kitchen timer to the following specification:
 * Counts down in minutes, seconds on the display.
