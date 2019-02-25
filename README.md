@@ -48,11 +48,11 @@ For slides and example code, see [lesson 2](../../../fhnw-iot/blob/master/02/REA
 
 ### g) Kitchen timer, 30'
 * Design a kitchen timer to the following specification:
-* Counts down in minutes, seconds on the display.
-* Allows the user to reset the countdown to _00:00_.
-* Allows the user to set a new start time in _mm:ss_.
-* Triggers the buzzer if countdown reaches _00:00_.
-* To measure time since reboot, use [millis()](https://www.arduino.cc/reference/en/language/functions/time/millis/).
+* Displays a countdown to 0, in minutes and seconds.
+* Let's the user reset to _00:00_, enter a new timespan.
+* Allows the user to start the countdown at _mm:ss_.
+* Starts buzzing if the countdown reaches _00:00_.
+* Use a state machine, get the time with [millis()](https://www.arduino.cc/reference/en/language/functions/time/millis/).
 
 ### h) Homework, max. 3h
 * Implement or finish the kitchen timer you designed.
