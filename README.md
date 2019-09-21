@@ -7,17 +7,17 @@ For slides and example code, see [lesson 2](../../../fhnw-iot/blob/master/02/REA
 
 ### a) LED (digital output), 5'
 * nRF52840 or ESP8266 w/ Grove:
+* Find [code examples in the Wiki](https://github.com/tamberg/fhnw-iot/wiki/Grove-Actuators#led).
 * Connect to adapter port _D2_.
-* [Maps to](https://github.com/tamberg/fhnw-iot/wiki/Grove-Adapters#mapping) ESP8266 pin _2_.
+* Maps to ESP8266 pin _2_.
 * Or nRF52840 pin _5_.
-* Adapt [this code](https://github.com/tamberg/fhnw-iot/wiki/Grove-Actuators#led).
 
 ### b) Button (digital input), 5'
 * nRF52840 or ESP8266 w/ Grove:
+* Find [code examples in the Wiki](https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#button).
 * Connect to adapter port _D2_.
-* [Maps to](https://github.com/tamberg/fhnw-iot/wiki/Grove-Adapters#mapping) ESP8266 pin _2_.
+* Maps to ESP8266 pin _2_.
 * Or nRF52840 pin _5_.
-* Adapt [this code](https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#button).
 
 ### c) Button-triggered LED, 15'
 * This works with nRF52840 or ESP8266, w/ Grove.
@@ -33,18 +33,18 @@ For slides and example code, see [lesson 2](../../../fhnw-iot/blob/master/02/REA
 
 ### e) Sensing light (analog input), 5'
 * nRF52840 or ESP8266 w/ Grove:
+* Find [code examples in the Wiki](https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#light-sensor-v12).
 * Connect to adapter port _A0_.
 * [Maps to](https://github.com/tamberg/fhnw-iot/wiki/Grove-Adapters#mapping) ESP8266 pin _ADC_.
 * Or nRF52840 pin _A0_.
-* Adapt [this code](https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#light-sensor-v12).
 
 ### f) Temperature (DHT11), 5'
-* DHT11 sensors require a [library](https://github.com/Seeed-Studio/Grove_Temperature_And_Humidity_Sensor).
+* DHT11 sensors require a library.
+* [Library and examples in the Wiki](https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#temperature--humidity-sensor).
 * Connect to adapter port _D2_.
 * Maps to ESP8266 pin _2_.
 * Or nRF52840 pin _5_.
-* Adapt [this code](https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#temperature--humidity-sensor).
-* New to libraries? See Arduino [Wiki page](https://github.com/tamberg/fhnw-iot/wiki/Arduino).
+* New to libraries? See [Arduino library guide](https://www.arduino.cc/en/Guide/Libraries).
 
 ### g) Kitchen timer, 30'
 * Design a kitchen timer to the following specification:
