@@ -8,22 +8,22 @@ For slides and example code, see [lesson 2](../../../fhnw-iot/blob/master/02/REA
 ### a) LED (digital output), 5'
 * nRF52840 or ESP8266 w/ Grove:
 * Find [code examples in the Wiki](https://github.com/tamberg/fhnw-iot/wiki/Grove-Actuators#led).
-* Connect to adapter port _D2_.
-* Maps to ESP8266 pin _2_.
-* Or nRF52840 pin _5_.
+* Connect to adapter port _D4_.
+* Maps to ESP8266 pin _0_.
+* Or nRF52840 pin _9_.
 
 ### b) Button (digital input), 5'
 * nRF52840 or ESP8266 w/ Grove:
 * Find [code examples in the Wiki](https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#button).
-* Connect to adapter port _D2_.
-* Maps to ESP8266 pin _2_.
-* Or nRF52840 pin _5_.
+* Connect to adapter port _D4_.
+* Maps to ESP8266 pin _0_.
+* Or nRF52840 pin _9_.
 
 ### c) Button-triggered LED, 15'
 * This works with nRF52840 or ESP8266, w/ Grove.
-* Connect the LED to port D2, and the button to D4.
+* Connect the LED to port D2<sup>*</sup>, and the button to D4.
 * Combine the previous examples to switch the LED.
-* &lowast;) On the ESP8266, remove LED for programming.
+* <sup>*</sup>On the ESP8266, remove LED for programming.
 * Look up the [pin mapping](https://github.com/tamberg/fhnw-iot/wiki/Grove-Adapters#mapping) to adapt the pin numbers.
 
 ### d) State machine, 5'
