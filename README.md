@@ -36,12 +36,12 @@ For slides and example code, see [lesson 2](../../../fhnw-iot/blob/master/02/REA
 * nRF52840 or ESP8266 w/ Grove:
 * Find [code examples in the Wiki](https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#light-sensor-v12).
 * Connect to adapter port _A0_.
-* [Maps to](https://github.com/tamberg/fhnw-iot/wiki/Grove-Adapters#mapping) ESP8266 pin _ADC_.
+* Maps to ESP8266 pin _ADC_.
 * Or nRF52840 pin _A0_.
 
 ### f) Temperature (DHT11), 5'
 * DHT11 sensors require a library.
-* [Library and examples in the Wiki](https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#temperature--humidity-sensor).
+* Library and [examples in the Wiki](https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#temperature--humidity-sensor).
 * Connect to adapter port _D2_.
 * Maps to ESP8266 pin _2_.
 * Or nRF52840 pin _5_.
