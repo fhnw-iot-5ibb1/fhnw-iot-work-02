@@ -23,6 +23,7 @@ For slides and example code, see [lesson 2](../../../fhnw-iot/blob/master/02/REA
 * This works with nRF52840 or ESP8266, w/ Grove.
 * Connect the LED to port D2, and the button to D4.
 * Combine the previous examples to switch the LED.
+* &lowast;) On the ESP8266, remove LED for programming
 * Look up the [pin mapping](https://github.com/tamberg/fhnw-iot/wiki/Grove-Adapters#mapping) to adapt the pin numbers.
 
 ### d) State machine, 5'
