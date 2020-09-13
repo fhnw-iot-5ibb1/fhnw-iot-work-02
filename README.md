@@ -3,7 +3,7 @@
 For slides and example code, see [lesson 2](../../../fhnw-iot/blob/master/02/README.md)
 
 > *Note: Do not work on this repository right away.*<br/>
-> *[Check existing forks to find the specific repository for your class.](../../network/members)*
+> *[Create your personal copy by clicking this GitHub Classroom link](https://classroom.github.com/a/RyYmzNRT).*
 
 ### a) LED (digital output), 5'
 * nRF52840 or ESP8266 w/ Grove:
