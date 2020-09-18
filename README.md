@@ -6,7 +6,6 @@ For slides and example code, see [lesson 2](../../../fhnw-iot/blob/master/02/REA
 > *[Check existing forks to find the specific repository for your class.](../../network/members)*
 
 ### a) Button-triggered LED, 15'
-* This works with nRF52840 or ESP8266, w/ Grove.
 * Connect the LED to port D2<sup>*</sup>, and the button to D4.
 * Combine the previous examples to switch the LED.
 * <sup>*</sup>On the ESP8266, remove LED for programming.
